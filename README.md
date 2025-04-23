@@ -70,7 +70,7 @@ Está arquitecturada bajo MVVM + Coordinator, con inyección de dependencias ví
 
 1. Clona este repositorio:  
    ```bash
-   git clone https://github.com/tu_usuario/Cosmo-Noticias.git
+   git clone https://github.com/wtkvarox/Cosmo-Noticias.git
    cd Cosmo-Noticias
    ```
 2. Abre el proyecto en Xcode:  
