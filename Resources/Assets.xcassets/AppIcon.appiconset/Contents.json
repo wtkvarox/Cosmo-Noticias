@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "ufo_9285381_resized.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -63,6 +64,7 @@
       "size" : "256x256"
     },
     {
+      "filename" : "ufo_9285381 10.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"

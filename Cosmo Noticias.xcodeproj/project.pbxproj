@@ -6,6 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B291BA892DB9779A00C5802E /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = B291BA882DB9779A00C5802E /* Resolver */; };
+		B291BA8D2DB9779A00C5802E /* Resolver-Static in Frameworks */ = {isa = PBXBuildFile; productRef = B291BA8C2DB9779A00C5802E /* Resolver-Static */; };
+		B291BA902DB9784600C5802E /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = B291BA8F2DB9784600C5802E /* Resolver */; };
+		B291BA942DB9784600C5802E /* Resolver-Static in Frameworks */ = {isa = PBXBuildFile; productRef = B291BA932DB9784600C5802E /* Resolver-Static */; };
+		B291BA972DB979E000C5802E /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = B291BA962DB979E000C5802E /* Resolver */; };
+		B291BA9B2DB979E000C5802E /* Resolver-Static in Frameworks */ = {isa = PBXBuildFile; productRef = B291BA9A2DB979E000C5802E /* Resolver-Static */; };
+		B291BABC2DB9877000C5802E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B291BABB2DB9877000C5802E /* Kingfisher */; };
+		B291BABE2DB98BC600C5802E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B291BABD2DB98BC600C5802E /* Kingfisher */; };
+		B291BAC02DB98BFC00C5802E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B291BABF2DB98BFC00C5802E /* Kingfisher */; };
+		B291BAC22DB98C1000C5802E /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = B291BAC12DB98C1000C5802E /* Resolver */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B2F91B6A2DB73DC0009AE970 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -23,16 +36,128 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B291BAA82DB97D5800C5802E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B291BAB12DB97D6400C5802E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B291BAB92DB97D6A00C5802E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		B2F91B5B2DB73DBE009AE970 /* Cosmo Noticias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cosmo Noticias.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F91B692DB73DC0009AE970 /* Cosmo NoticiasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cosmo NoticiasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F91B732DB73DC0009AE970 /* Cosmo NoticiasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cosmo NoticiasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B291BAA12DB97A5C00C5802E /* Exceptions for "DependencyInjection" folder in "Cosmo NoticiasTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				DIContainer.swift,
+			);
+			target = B2F91B682DB73DC0009AE970 /* Cosmo NoticiasTests */;
+		};
+		B291BAA22DB97A5C00C5802E /* Exceptions for "DependencyInjection" folder in "Cosmo NoticiasUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				DIContainer.swift,
+			);
+			target = B2F91B722DB73DC0009AE970 /* Cosmo NoticiasUITests */;
+		};
+		B2F91BA52DB73FBB009AE970 /* Exceptions for "App" folder in "Cosmo NoticiasTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppCoordinator.swift,
+				CosmoNoticiasApp.swift,
+			);
+			target = B2F91B682DB73DC0009AE970 /* Cosmo NoticiasTests */;
+		};
+		B2F91BA62DB73FBB009AE970 /* Exceptions for "App" folder in "Cosmo NoticiasUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppCoordinator.swift,
+				CosmoNoticiasApp.swift,
+			);
+			target = B2F91B722DB73DC0009AE970 /* Cosmo NoticiasUITests */;
+		};
+		B2F91BC22DB73FF9009AE970 /* Exceptions for "Features" folder in "Cosmo NoticiasTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Articles/Model/Article.swift,
+				Articles/Model/ArticleListResponse.swift,
+				Articles/Networking/APIService.swift,
+				Articles/ViewModels/ArticleDetailViewModel.swift,
+				Articles/ViewModels/ArticlesListViewModel.swift,
+				Articles/Views/ArticleDetailView.swift,
+				Articles/Views/ArticleRowView.swift,
+				Articles/Views/ArticlesListView.swift,
+			);
+			target = B2F91B682DB73DC0009AE970 /* Cosmo NoticiasTests */;
+		};
+		B2F91BC32DB73FF9009AE970 /* Exceptions for "Features" folder in "Cosmo NoticiasUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Articles/Model/Article.swift,
+				Articles/Model/ArticleListResponse.swift,
+				Articles/Networking/APIService.swift,
+				Articles/ViewModels/ArticleDetailViewModel.swift,
+				Articles/ViewModels/ArticlesListViewModel.swift,
+				Articles/Views/ArticleDetailView.swift,
+				Articles/Views/ArticleRowView.swift,
+				Articles/Views/ArticlesListView.swift,
+			);
+			target = B2F91B722DB73DC0009AE970 /* Cosmo NoticiasUITests */;
+		};
+		B2F91C052DB7413D009AE970 /* Exceptions for "Common" folder in "Cosmo NoticiasTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				UIComponents/ErrorView.swift,
+			);
+			target = B2F91B682DB73DC0009AE970 /* Cosmo NoticiasTests */;
+		};
+		B2F91C062DB7413D009AE970 /* Exceptions for "Common" folder in "Cosmo NoticiasUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				UIComponents/ErrorView.swift,
+			);
+			target = B2F91B722DB73DC0009AE970 /* Cosmo NoticiasUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B2F91B5D2DB73DBE009AE970 /* Cosmo Noticias */ = {
+		B291BA9C2DB97A4200C5802E /* DependencyInjection */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Cosmo Noticias";
+			exceptions = (
+				B291BAA12DB97A5C00C5802E /* Exceptions for "DependencyInjection" folder in "Cosmo NoticiasTests" target */,
+				B291BAA22DB97A5C00C5802E /* Exceptions for "DependencyInjection" folder in "Cosmo NoticiasUITests" target */,
+			);
+			path = DependencyInjection;
 			sourceTree = "<group>";
 		};
 		B2F91B6C2DB73DC0009AE970 /* Cosmo NoticiasTests */ = {
@@ -45,6 +170,43 @@
 			path = "Cosmo NoticiasUITests";
 			sourceTree = "<group>";
 		};
+		B2F91BA02DB73FA0009AE970 /* App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B2F91BA52DB73FBB009AE970 /* Exceptions for "App" folder in "Cosmo NoticiasTests" target */,
+				B2F91BA62DB73FBB009AE970 /* Exceptions for "App" folder in "Cosmo NoticiasUITests" target */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B2F91BB52DB73FF9009AE970 /* Features */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B2F91BC22DB73FF9009AE970 /* Exceptions for "Features" folder in "Cosmo NoticiasTests" target */,
+				B2F91BC32DB73FF9009AE970 /* Exceptions for "Features" folder in "Cosmo NoticiasUITests" target */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B2F91BFD2DB74104009AE970 /* Common */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B2F91C052DB7413D009AE970 /* Exceptions for "Common" folder in "Cosmo NoticiasTests" target */,
+				B2F91C062DB7413D009AE970 /* Exceptions for "Common" folder in "Cosmo NoticiasUITests" target */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B2F91C232DB741B0009AE970 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B2F91C492DB74863009AE970 /* Cosmo Noticias */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Cosmo Noticias";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +214,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B291BA8D2DB9779A00C5802E /* Resolver-Static in Frameworks */,
+				B291BA902DB9784600C5802E /* Resolver in Frameworks */,
+				B291BABC2DB9877000C5802E /* Kingfisher in Frameworks */,
+				B291BA942DB9784600C5802E /* Resolver-Static in Frameworks */,
+				B291BA972DB979E000C5802E /* Resolver in Frameworks */,
+				B291BA9B2DB979E000C5802E /* Resolver-Static in Frameworks */,
+				B291BA892DB9779A00C5802E /* Resolver in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +228,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B291BABE2DB98BC600C5802E /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,18 +236,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B291BAC22DB98C1000C5802E /* Resolver in Frameworks */,
+				B291BAC02DB98BFC00C5802E /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B291BAA92DB97D6400C5802E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B2F91B522DB73DBE009AE970 = {
 			isa = PBXGroup;
 			children = (
-				B2F91B5D2DB73DBE009AE970 /* Cosmo Noticias */,
+				B291BA9C2DB97A4200C5802E /* DependencyInjection */,
+				B2F91C492DB74863009AE970 /* Cosmo Noticias */,
+				B2F91C232DB741B0009AE970 /* Resources */,
+				B2F91BFD2DB74104009AE970 /* Common */,
+				B2F91BA02DB73FA0009AE970 /* App */,
+				B2F91BB52DB73FF9009AE970 /* Features */,
 				B2F91B6C2DB73DC0009AE970 /* Cosmo NoticiasTests */,
 				B2F91B762DB73DC0009AE970 /* Cosmo NoticiasUITests */,
+				B291BAA92DB97D6400C5802E /* Frameworks */,
 				B2F91B5C2DB73DBE009AE970 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,16 +287,29 @@
 				B2F91B572DB73DBE009AE970 /* Sources */,
 				B2F91B582DB73DBE009AE970 /* Frameworks */,
 				B2F91B592DB73DBE009AE970 /* Resources */,
+				B291BAA82DB97D5800C5802E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B2F91B5D2DB73DBE009AE970 /* Cosmo Noticias */,
+				B291BA9C2DB97A4200C5802E /* DependencyInjection */,
+				B2F91BA02DB73FA0009AE970 /* App */,
+				B2F91BB52DB73FF9009AE970 /* Features */,
+				B2F91BFD2DB74104009AE970 /* Common */,
+				B2F91C232DB741B0009AE970 /* Resources */,
+				B2F91C492DB74863009AE970 /* Cosmo Noticias */,
 			);
 			name = "Cosmo Noticias";
 			packageProductDependencies = (
+				B291BA882DB9779A00C5802E /* Resolver */,
+				B291BA8C2DB9779A00C5802E /* Resolver-Static */,
+				B291BA8F2DB9784600C5802E /* Resolver */,
+				B291BA932DB9784600C5802E /* Resolver-Static */,
+				B291BA962DB979E000C5802E /* Resolver */,
+				B291BA9A2DB979E000C5802E /* Resolver-Static */,
+				B291BABB2DB9877000C5802E /* Kingfisher */,
 			);
 			productName = "Cosmo Noticias";
 			productReference = B2F91B5B2DB73DBE009AE970 /* Cosmo Noticias.app */;
@@ -124,6 +322,7 @@
 				B2F91B652DB73DC0009AE970 /* Sources */,
 				B2F91B662DB73DC0009AE970 /* Frameworks */,
 				B2F91B672DB73DC0009AE970 /* Resources */,
+				B291BAB12DB97D6400C5802E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +334,7 @@
 			);
 			name = "Cosmo NoticiasTests";
 			packageProductDependencies = (
+				B291BABD2DB98BC600C5802E /* Kingfisher */,
 			);
 			productName = "Cosmo NoticiasTests";
 			productReference = B2F91B692DB73DC0009AE970 /* Cosmo NoticiasTests.xctest */;
@@ -147,6 +347,7 @@
 				B2F91B6F2DB73DC0009AE970 /* Sources */,
 				B2F91B702DB73DC0009AE970 /* Frameworks */,
 				B2F91B712DB73DC0009AE970 /* Resources */,
+				B291BAB92DB97D6A00C5802E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +359,8 @@
 			);
 			name = "Cosmo NoticiasUITests";
 			packageProductDependencies = (
+				B291BABF2DB98BFC00C5802E /* Kingfisher */,
+				B291BAC12DB98C1000C5802E /* Resolver */,
 			);
 			productName = "Cosmo NoticiasUITests";
 			productReference = B2F91B732DB73DC0009AE970 /* Cosmo NoticiasUITests.xctest */;
@@ -195,6 +398,10 @@
 			);
 			mainGroup = B2F91B522DB73DBE009AE970;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B291BA952DB979E000C5802E /* XCRemoteSwiftPackageReference "Resolver" */,
+				B291BABA2DB9877000C5802E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B2F91B5C2DB73DBE009AE970 /* Products */;
 			projectDirPath = "";
@@ -397,6 +604,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -412,7 +620,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.williamoviedo.cosmo.Cosmo-Noticias";
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamoviedo.cosmonoticias;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -436,6 +644,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -451,7 +660,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.williamoviedo.cosmo.Cosmo-Noticias";
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamoviedo.cosmonoticias;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -593,6 +802,74 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B291BA952DB979E000C5802E /* XCRemoteSwiftPackageReference "Resolver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Resolver";
+			requirement = {
+				kind = exactVersion;
+				version = 1.5.1;
+			};
+		};
+		B291BABA2DB9877000C5802E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = exactVersion;
+				version = 8.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B291BA882DB9779A00C5802E /* Resolver */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Resolver;
+		};
+		B291BA8C2DB9779A00C5802E /* Resolver-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "Resolver-Static";
+		};
+		B291BA8F2DB9784600C5802E /* Resolver */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Resolver;
+		};
+		B291BA932DB9784600C5802E /* Resolver-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "Resolver-Static";
+		};
+		B291BA962DB979E000C5802E /* Resolver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B291BA952DB979E000C5802E /* XCRemoteSwiftPackageReference "Resolver" */;
+			productName = Resolver;
+		};
+		B291BA9A2DB979E000C5802E /* Resolver-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B291BA952DB979E000C5802E /* XCRemoteSwiftPackageReference "Resolver" */;
+			productName = "Resolver-Static";
+		};
+		B291BABB2DB9877000C5802E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B291BABA2DB9877000C5802E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		B291BABD2DB98BC600C5802E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B291BABA2DB9877000C5802E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		B291BABF2DB98BFC00C5802E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B291BABA2DB9877000C5802E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		B291BAC12DB98C1000C5802E /* Resolver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B291BA952DB979E000C5802E /* XCRemoteSwiftPackageReference "Resolver" */;
+			productName = Resolver;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B2F91B532DB73DBE009AE970 /* Project object */;
 }
